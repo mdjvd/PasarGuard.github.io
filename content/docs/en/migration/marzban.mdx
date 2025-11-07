@@ -137,6 +137,10 @@ nano .env
     ```dotenv
     SQLALCHEMY_DATABASE_URL = "mysql+asyncmy://root:MYSQL_ROOT_PASSWORD@127.0.0.1/pasarguard"
     ```
+    <Callout type="info"> 
+💬 **Note**:
+      If you used `marzban` user in database url before and you have `MYSQL_DATABASE` and `MYSQL_USER` variables in `.env' file, you can change the `marzban` value to `pasarguard`. Or use the `root` user like the example above.
+    </Callout>
   </Tab>
 </Tabs>
 
